@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=teleop
+Comment=oit_minibot_light_v5 keyboard teleop
+Exec=bash -c "source /opt/ros/melodic/setup.bash && source ~/catkin_ws/devel/setup.bash && source ~/.bashrc && roslaunch oit_minibot_light_v5 teleop.launch"
+Icon=oit_teleop
+Terminal=true
